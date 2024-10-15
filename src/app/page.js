@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 
 export default function ConversorMoedas() {
   const [valorReal, setValorReal] = useState("");
-  const [moeda, setMoeda] = useState("dolar");
+  const [moeda, setMoeda] = useState("dola");
   const [resultado, setResultado] = useState(null);
 
   const taxasConversao = {
