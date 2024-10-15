@@ -50,7 +50,7 @@ export default function ConversorMoedas() {
         <div className={styles.buttons}>
           <button onClick={handleConverter}>Converter</button>
           <button onClick={handleLimpar} className={styles.limpar}>
-            Limpar
+            Limpa
           </button>
         </div>
       </div>
